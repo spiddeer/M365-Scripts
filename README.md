@@ -47,9 +47,8 @@ Make sure you have connected to your Microsoft 365 services before running the s
 
 | Script Name | Description |
 |------------|-------------|
-| `Enable-IntelVersioning.ps1` | Enables Intelligent Versioning for SharePoint Online sites. |
-| `Check-TrimJobProgress.ps1` | Checks the status of ongoing SharePoint file version deletion jobs. |
-| `Get-SPOStorageReport.ps1` | Retrieves storage usage details for all SharePoint sites. |
+| `Enable-SPO-IntelVer.ps1` | Enables Intelligent Versioning for SharePoint Online sites. |
+| `CheckCleardStorage.ps1` | Checks and reports the total storage cleared after running version trimming jobs. |
 
 ## ❗ Important Notes
 - These scripts require **Global Administrator** or **SharePoint Administrator** permissions.
